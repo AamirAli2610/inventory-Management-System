@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>  INVENTORY MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <head><h1 class="head-name"> INVENTORY MANAGEMENT SYSTEM </h1></head>
+
+    <div class="container">
+
+        <!-- input product details -->
+         <div class="input-container">
+
+         <input type="text" class="product-name" placeholder="Product name">
+         <input type="number" class="product-price" placeholder="Product Price">
+         <input type="number" class="product-qty" placeholder="Product Quantity">
+         <input type="text" class="product-category" placeholder="Product Category">
+
+         </div>
+            <button class="add-product">Add Product</button>
+
+      <!-- dashboard  products cards -->
+
+    <div class="product-cards">
+         <div>
+            <p class="total-products">0</p>
+            <p> Total Products</p>
+
+         </div>
+
+         <div>
+            <p>Rs <span class="total-inventry-price">00</span></p>
+            <p>Total inventory Price</p>
+
+         </div>
+         
+            <div>
+            <span class="highest-product-name">laptop</span> Rs
+            <span class="highest-product-price">0</span>
+            <p> Most expensive product</p> </div>
+
+         <div>
+
+            <span class="low-stock-items"></span> is
+                <p class="out-of-stock-msg">Out of stock!</p>
+            
+
+         </div>
+
+
+
+      </div>
+        
+
+
+
+      <!-- Products details -->
+
+     <h2 class="products-lists-header">Products List</h2>
+   <div class="product-lists-container">
+        <div class="product-list-header">
+            <div >Name
+                
+            </div>
+            <div >Price
+            </div>
+            <div >Qty
+            </div>
+            <div >Category
+            </div>
+        </div>
+
+        <div class="products-container">
+            <!-- new products name will append here  -->
+        </div>
+    </div>
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

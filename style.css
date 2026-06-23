@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.head-name{
+    color: rgb(158, 118, 59);
+    text-align: center;
+    margin: 20px;
+
+}
+
+body{
+    background-color: rgb(195, 192, 192);
+}
+
+input{
+    width: 300px;
+    height: 30px;
+   margin: 20px;
+    background-color: rgb(224, 205, 184);
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+
+
+}
+
+.add-product{
+    margin-left: 300px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+     background-color: rgb(224, 205, 184);
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+.add-product:hover{
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.product-cards{
+    display: flex;
+}
+
+.product-cards div{
+
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(217, 211, 204);
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px ;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+   
+  
+
+
+
+}
+.product-cards div:hover{
+
+
+    transform: scale(1.1);
+    background-color: rgb(224, 205, 184);
+    cursor: pointer;
+   
+
+}
+
+
+
+.total-products,
+.total-inventry-price,
+.highest-product-price,
+.low-stock-items{
+
+    font-size: 40px;
+    font-weight: 700;
+
+    
+
+}
+
+.products-list-container{
+    display: flex;
+}
+
+.product-list-header{
+    font-size: 20px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+
+.products-lists-header{
+    
+    text-align: center;
+    font-size: 30px;
+    color: rgb(158, 118, 59);
+}
+
+.out-of-stock-msg{
+    font-size: 15px;
+    color: rgb(244, 9, 9);
+}
+.low-stock-items{
+    font-size: 20px;
+    color: rgb(158, 118, 59);
+
+
+}
+.products-container{
+
+    gap: 50px;
+    margin-left: 110px;
+    margin-top : 20px;
+    font-size : 20px;
+    border: 2px solid black;
+    height: 100%;
+}
+.productRow{
+    display: flex;
+    gap: 90px;
+    margin-top: 10px;
+}
+
